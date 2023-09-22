@@ -13,8 +13,8 @@ jobs:
     uses: syginc/actions-util/.github/workflows/ghcr-publish.yml@master
     with:
       image_name: ${{ github.repository_owner }}/node-chromium
-      tag: 16
-      file_path: 16/Dockerfile
+      tag: 18
+      file_path: 18/Dockerfile
       context_path: .
     secrets:
       registry_username: ${{github.actor}}
